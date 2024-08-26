@@ -12,9 +12,6 @@ namespace API.Controllers;
 
 public class ProductsController(IGenericRepository<Product> repo) : BaseApiController
 {
-
-
-
     [HttpGet]
     public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts([FromQuery]ProductSpecParams specParams)
     {
