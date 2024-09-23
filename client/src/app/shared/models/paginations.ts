@@ -6,4 +6,5 @@ pageSize: number;
 count: number;
 data: T[]
 
+
 }

@@ -19,3 +19,7 @@ $customTheme: mat.define-theme();
 .container{
     @apply ml-5 mr-auto max-w-screen-2xl
 }
+
+.text-primary{
+    color: purple;
+}
