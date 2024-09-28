@@ -23,3 +23,21 @@ $customTheme: mat.define-theme();
 .text-primary{
     color: purple;
 }
+button.match-input-heiht{
+    height: var(--mat-form-field-container-height) !important;
+}
+
+
+.mdc-notched-outline__notch{
+    border-right-style: none !important
+}
+#mat-paginator-page-size-label-0{
+    visibility: hidden;
+    position: relative;
+}
+#mat-paginator-page-size-label-0::after{
+    content: "Prikaži artikle";
+    visibility: visible;
+    position: absolute;
+    left: 0;
+}
