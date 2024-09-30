@@ -16,9 +16,6 @@ $customTheme: mat.define-theme();
     }
 }
 
-.container{
-    @apply ml-5 mr-auto max-w-screen-2xl
-}
 
 .text-primary{
     color: purple;
@@ -40,4 +37,23 @@ button.match-input-heiht{
     visibility: visible;
     position: absolute;
     left: 0;
+}
+
+.mat-mdc-snack-bar-container.snack-error{
+    --mdc-snackbar-container-color: red;
+    --mat-snack-bar-button-color: #fff;
+    --mdc-snackbar-supporting-text-color: #fff;
+
+}
+
+.mat-mdc-snack-bar-container.snack-success{
+    --mdc-snackbar-container-color: green;
+    --mat-snack-bar-button-color: #fff;
+    --mdc-snackbar-supporting-text-color: #fff;
+    
+}
+#error-500-css{
+    background-color: rgb(234, 230, 230);
+    padding-bottom: 5px;
+    padding-left: 10px;
 }

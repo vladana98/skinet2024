@@ -1,13 +1,13 @@
 @if(product){
 <section class="py-8">
-  <div class="max-w-screen-2xl px-4 mx-auto">
-    <div class="grid grid-cols-2 gap-8">
+  <div class="px-4 mx-auto">
+    <div class="grid grid-cols-2 gap-6">
       
       <div class="max-w-xl mx-auto">
         <img class="w-full" src="{{product.pictureUrl}}" alt="Slika proizvoda.">
       </div>
 
-      <div class="product-detail-class">
+      <div>
         <h1 class="text-2xl font-semibold text-gray-900">{{product.name}}</h1>
         <div class="mt-4 items-center gap-4 flex">
           <p class="text-3xl font-extrabold text-gray-900"> {{product.price | currency:'KM'}}</p>
