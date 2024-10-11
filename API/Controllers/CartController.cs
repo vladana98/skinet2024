@@ -21,7 +21,7 @@ public class CartController(ICartService cartService) : BaseApiController
 
         if(updateCart == null) 
             return BadRequest("Problem with cart");
-        return Ok();
+        return updateCart;
     }
 
     [HttpDelete]

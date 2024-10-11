@@ -2,40 +2,47 @@
 <section class="py-8">
   <div class="px-4 mx-auto">
     <div class="grid grid-cols-2 gap-6">
-      
       <div class="max-w-xl mx-auto">
-        <img class="w-full" src="{{product.pictureUrl}}" alt="Slika proizvoda.">
+        <img
+          class="w-full"
+          src="{{ product.pictureUrl }}"
+          alt="Slika proizvoda."
+        />
       </div>
 
       <div>
-        <h1 class="text-2xl font-semibold text-gray-900">{{product.name}}</h1>
+        <h1 class="text-2xl font-semibold text-gray-900">{{ product.name }}</h1>
+
+        <p>Količina proizvoda u korpi: {{ quantityInCart }}</p>
+
         <div class="mt-4 items-center gap-4 flex">
-          <p class="text-3xl font-extrabold text-gray-900"> {{product.price | currency:'KM'}}</p>
+          <p class="text-3xl font-extrabold text-gray-900">
+            {{ product.price | currency : "KM" }}
+          </p>
         </div>
         <div class="flex gap-4 mt-6">
-          <button mat-flat-button class="match-input-heiht">
+          <button
+            [disabled]="quantity == quantityInCart"
+            (click)="updateCart()"
+            mat-flat-button
+            class="match-input-heiht"
+          >
             <mat-icon>shopping_cart</mat-icon>
-            Dodaj u korpu
+            {{ getButtonText() }}
           </button>
 
           <mat-form-field appearance="outline" class="flex">
             <mat-label>Količina</mat-label>
-            <input matInput type="number">
+            <input matInput min="0" [(ngModel)]="quantity" type="number" />
           </mat-form-field>
-
         </div>
         <mat-divider></mat-divider>
 
         <p class="mt-6 text-gray-500">
-          {{product.description}}
+          {{ product.description }}
         </p>
-
       </div>
-
-
     </div>
   </div>
-
 </section>
 }
-
