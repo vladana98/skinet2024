@@ -38,7 +38,7 @@
   {
     "Name": "React Board Super Whizzy Fast",
     "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
+    "Price": 250.45,
     "PictureUrl": "/images/products/sb-react1.png",
     "Type": "Boards",
     "Brand": "React",
@@ -47,7 +47,7 @@
   {
     "Name": "Typescript Entry Board",
     "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
+    "Price": 120.54,
     "PictureUrl": "/images/products/sb-ts1.png",
     "Type": "Boards",
     "Brand": "Typescript",
@@ -56,7 +56,7 @@
   {
     "Name": "Core Blue Hat",
     "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
+    "Price": 10.45,
     "PictureUrl": "/images/products/hat-core1.png",
     "Type": "Hats",
     "Brand": "NetCore",
@@ -65,7 +65,7 @@
   {
     "Name": "Green React Woolen Hat",
     "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
+    "Price": 8.54,
     "PictureUrl": "/images/products/hat-react1.png",
     "Type": "Hats",
     "Brand": "React",
