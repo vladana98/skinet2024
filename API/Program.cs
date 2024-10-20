@@ -16,7 +16,7 @@ builder.Services.AddCors(
             (options) =>
             {
                 options
-                    .WithOrigins(["https://localhost:4200"])
+                    .WithOrigins("https://localhost:4200")
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials();
@@ -54,8 +54,15 @@ builder.Services.AddIdentityApiEndpoints<AppUser>()
 
 
 var app = builder.Build();
-
 app.UseCors("CorsPolicy");
+
+app.Use(async (context, next) =>
+{
+    Console.WriteLine($"Request: {context.Request.Method} {context.Request.Path}");
+    await next.Invoke();
+    Console.WriteLine($"Response: {context.Response.StatusCode}");
+});
+
 
 
 // Configure the HTTP request pipeline.
