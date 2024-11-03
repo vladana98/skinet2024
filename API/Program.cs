@@ -49,12 +49,13 @@ builder.Services.AddSingleton<ICartService, CartService>();
 builder.Services.AddAuthorization();
 builder.Services.AddIdentityApiEndpoints<AppUser>()
     .AddEntityFrameworkStores<StoreContext>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 
 
 
 
 var app = builder.Build();
-app.UseCors("CorsPolicy");
+
 
 app.Use(async (context, next) =>
 {
@@ -70,7 +71,7 @@ app.Use(async (context, next) =>
 app.UseMiddleware<ExceptionMiddleware>();
 
 
-
+app.UseCors("CorsPolicy");
 
 app.MapControllers();
 app.MapGroup("api").MapIdentityApi<AppUser>(); // api/login
