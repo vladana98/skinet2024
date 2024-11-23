@@ -1,0 +1,35 @@
+<div class="mx-auto mt-32">
+  <h2 class="font-semibold text-2xl mb-6 text-center">Moje kupovine</h2>
+  <div class="flex flex-col">
+    <div class="w-full">
+      <table class="min-w-full divide-y divide-gray-200 cursor-pointer">
+        <thead class="bg-gray-50">
+          <tr class="uppercase text-gray-600 text-sm">
+            <th class="text-center px-6 py-3">Narudžba</th>
+            <th class="text-left">Datum</th>
+            <th class="text-left">Ukupno</th>
+            <th class="text-left">Status</th>
+          </tr>
+        </thead>
+
+        <tbody class="bg-white divide-y divide-gray-200">
+          @for (order of orders; track order.id) {
+          <tr routerLink="/orders/{{ order.id }}" class="hover:bg-gray-100">
+            <th class="px-6 py-3"># {{ order.id }}</th>
+            <td>{{ order.orderDate | date : "medium" }}</td>
+            <td>{{ order.total | currency : " KM " }}</td>
+
+            @if (order.status == 'Pending') {
+            <td>Na čekanju</td>
+            } @if (order.status == 'PaymentReceived') {
+            <td>Uspješno plaćeno.</td>
+            } @if (order.status == 'PaymenFaild') {
+            <td>Plaćanje nije uspjelo.</td>
+            }
+          </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

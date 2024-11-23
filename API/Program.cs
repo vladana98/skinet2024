@@ -1,9 +1,11 @@
 using API.Middleware;
+using API.SignalR;
 using Core.Entities;
 using Core.Interfaces;
 using Infrastructure.Data;
 using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +26,7 @@ builder.Services.AddCors(
         );
     }
 );
+
 
 
 builder.Services.AddControllers();
@@ -51,19 +54,26 @@ builder.Services.AddAuthorization();
 builder.Services.AddIdentityApiEndpoints<AppUser>()
     .AddEntityFrameworkStores<StoreContext>();
 builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddSignalR();
 
 
 
 
 var app = builder.Build();
 
-
 app.Use(async (context, next) =>
+
 {
+    context.Response.Headers.Add("Content-Security-Policy", "script-src 'self' 'unsafe-inline' https://m.stripe.network;");
+ 
     Console.WriteLine($"Request: {context.Request.Method} {context.Request.Path}");
     await next.Invoke();
     Console.WriteLine($"Response: {context.Response.StatusCode}");
 });
+app.UseCors("CorsPolicy");
+app.UseAuthentication();
+app.UseAuthorization();
+
 
 
 
@@ -72,10 +82,15 @@ app.Use(async (context, next) =>
 app.UseMiddleware<ExceptionMiddleware>();
 
 
-app.UseCors("CorsPolicy");
+
+
+
+
+
 
 app.MapControllers();
 app.MapGroup("api").MapIdentityApi<AppUser>(); // api/login
+app.MapHub<NotificationHub>("/hub/notifications");
 
 
 try
