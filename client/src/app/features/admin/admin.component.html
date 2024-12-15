@@ -1,0 +1,97 @@
+<div class="min-h-screen">
+  <mat-tab-group class="bg-white">
+    <mat-tab label="Narudžbe">
+      <div
+        class="flex justify-between items-center mt-2 max-w-screen-2xl mx-auto"
+      >
+        <h2 class="text-2xl font-semibold">Narudžbe korisnika</h2>
+        <mat-form-field appearance="outline" class="mt-2">
+          <mat-label>Status narudžbe</mat-label>
+          <mat-select (selectionChange)="onFilterSelect($event)">
+            @for (status of statusOptions; track $index) {
+            <mat-option [value]="status">
+              @if (status == 'Pending') { Na čekanju } @if (status ==
+              'PaymentReceived') { Uplata primljena } @if (status
+              =='PaymentMismatch') { Greška pri uplati } @if (status
+              =='Refunded') { Povrat } @if (status =='All') { Sve }
+            </mat-option>
+            }
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="p-4">
+        <div class="mat-elevation-z8">
+          <table mat-table [dataSource]="dataSource" class="bg-white">
+            <ng-container matColumnDef="id">
+              <th mat-header-cell *matHeaderCellDef>Broj</th>
+              <td mat-cell *matCellDef="let order">{{ order.id }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="buyerEmail">
+              <th mat-header-cell *matHeaderCellDef>Email kupca</th>
+              <td mat-cell *matCellDef="let order">{{ order.buyerEmail }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="orderDate">
+              <th mat-header-cell *matHeaderCellDef>Datum</th>
+              <td mat-cell *matCellDef="let order">
+                {{ order.orderDate | date : "short" }}
+              </td>
+            </ng-container>
+
+            <ng-container matColumnDef="total">
+              <th mat-header-cell *matHeaderCellDef>Cijena</th>
+              <td mat-cell *matCellDef="let order">{{ order.total }} KM</td>
+            </ng-container>
+
+            <ng-container matColumnDef="status">
+              <th mat-header-cell *matHeaderCellDef>Status</th>
+              <td mat-cell *matCellDef="let order">
+                @if (order.status == 'Pending') { Na čekanju } @if (order.status
+                == 'PaymentReceived') { Uplata primljena } @if (order.status
+                =='PaymentMismatch') { Greška pri uplati } @if (order.status
+                =='Refunded') { Povrat }
+              </td>
+            </ng-container>
+
+            <ng-container matColumnDef="action">
+              <th mat-header-cell *matHeaderCellDef></th>
+              <td mat-cell *matCellDef="let order">
+                <div class="flex gap-3">
+                  <button
+                    matTooltip="Pregled"
+                    mat-icon-button
+                    routerLink="/orders/{{ order.id }}"
+                  >
+                    <mat-icon color="accent">visibility</mat-icon>
+                  </button>
+                  <button matTooltip="Povrat" [disabled]="order.status === 'Refunded'"
+                    (click)="openConfirmDialog(order.id)" mat-icon-button>
+                    <mat-icon color="warn">undo</mat-icon>
+                  </button>
+                </div>
+              </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+          </table>
+
+          <mat-paginator
+            class="bg-white"
+            [pageSizeOptions]="[5, 10, 20]"
+            [length]="totalItems"
+            [pageSize]="orderParams.pageSize"
+            (page)="onpPageChange($event)"
+            showFirstLastButtons
+          >
+          </mat-paginator>
+        </div>
+      </div>
+    </mat-tab>
+
+    <mat-tab label="Katalog"> Catalog placeholder </mat-tab>
+    <mat-tab label="Korisnička podrška"> Customer service </mat-tab>
+  </mat-tab-group>
+</div>

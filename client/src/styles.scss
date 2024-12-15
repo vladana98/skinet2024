@@ -1,4 +1,4 @@
-@use '@angular/material' as mat;
+@use "@angular/material" as mat;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,53 +7,52 @@ $customTheme: mat.define-theme();
 
 @include mat.core();
 
-.custom-theme{
-    @include mat.all-component-themes($customTheme);
+.custom-theme {
+  @include mat.all-component-themes($customTheme);
 
-    //Stil za dugmad
-    .mdc-button, .mdc-raised-button, .mdc-stroked-button, .mdc-flat-button{
-        @apply rounded-md
-    }
+  //Stil za dugmad
+  .mdc-button,
+  .mdc-raised-button,
+  .mdc-stroked-button,
+  .mdc-flat-button {
+    @apply rounded-md;
+  }
 }
 
-
-.text-primary{
-    color: purple;
+.text-primary {
+  color: purple;
 }
-button.match-input-heiht{
-    height: var(--mat-form-field-container-height) !important;
-}
-
-
-.mdc-notched-outline__notch{
-    border-right-style: none !important
-}
-#mat-paginator-page-size-label-0{
-    visibility: hidden;
-    position: relative;
-}
-#mat-paginator-page-size-label-0::after{
-    content: "Prikaži artikle";
-    visibility: visible;
-    position: absolute;
-    left: 0;
+button.match-input-heiht {
+  height: var(--mat-form-field-container-height) !important;
 }
 
-.mat-mdc-snack-bar-container.snack-error{
-    --mdc-snackbar-container-color: red;
-    --mat-snack-bar-button-color: #fff;
-    --mdc-snackbar-supporting-text-color: #fff;
-
+.mdc-notched-outline__notch {
+  border-right-style: none !important;
+}
+#mat-paginator-page-size-label-0 {
+  visibility: hidden;
+  position: relative;
+}
+#mat-paginator-page-size-label-0::after {
+  content: "Prikaži stavke";
+  visibility: visible;
+  position: absolute;
+  left: 0;
 }
 
-.mat-mdc-snack-bar-container.snack-success{
-    --mdc-snackbar-container-color: green;
-    --mat-snack-bar-button-color: #fff;
-    --mdc-snackbar-supporting-text-color: #fff;
-    
+.mat-mdc-snack-bar-container.snack-error {
+  --mdc-snackbar-container-color: red;
+  --mat-snack-bar-button-color: #fff;
+  --mdc-snackbar-supporting-text-color: #fff;
 }
-#error-500-css{
-    background-color: rgb(234, 230, 230);
-    padding-bottom: 5px;
-    padding-left: 10px;
+
+.mat-mdc-snack-bar-container.snack-success {
+  --mdc-snackbar-container-color: green;
+  --mat-snack-bar-button-color: #fff;
+  --mdc-snackbar-supporting-text-color: #fff;
+}
+#error-500-css {
+  background-color: rgb(234, 230, 230);
+  padding-bottom: 5px;
+  padding-left: 10px;
 }
