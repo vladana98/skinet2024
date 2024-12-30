@@ -21,7 +21,7 @@ public class StoreContextSeed
             await userManager.AddToRoleAsync(user, "Admin");
         }
 
-        var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        var path = "C:\\Users\\Vladana\\skinet2024\\Infrastructure";
 
         if (!context.Products.Any())
         {

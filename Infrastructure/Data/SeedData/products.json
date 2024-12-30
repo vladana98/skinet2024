@@ -1,164 +1,352 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "/images/products/sb-ang1.png",
-    "Type": "Boards",
-    "Brand": "Angular",
-    "QuantityInStock": 82
+    "Name": "Moderni luster Orbita",
+    "Description": "Moderan dizajn sa sferičnim oblicima koji pružaju ugodnu rasvjetu. Pogodan za minimalističke enterijere.",
+    "Price": 290.00,
+    "PictureUrl": "/images/products/rasvjeta/11.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Siteco",
+    "QuantityInStock": 11
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "/images/products/sb-ang2.png",
-    "Type": "Boards",
-    "Brand": "Angular",
-    "QuantityInStock": 75
+    "Name": "Rustični luster Drvo",
+    "Description": "Unikatni rustični luster izrađen od prirodnog drveta i metala. Dodaje toplinu i prirodni šarm svakom prostoru.",
+    "Price": 230.75,
+    "PictureUrl": "/images/products/rasvjeta/1.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Philips",
+    "QuantityInStock": 12
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "/images/products/sb-core1.png",
-    "Type": "Boards",
-    "Brand": "NetCore",
-    "QuantityInStock": 3
+    "Name": "Klasični luster Elegance",
+    "Description": "Klasičan dizajn sa luksuznim detaljima, idealan za moderne enterijere. Dolazi sa LED sijalicama.",
+    "Price": 310.40,
+    "PictureUrl": "/images/products/rasvjeta/12.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Trilux",
+    "QuantityInStock": 6
+  },
+
+  {
+    "Name": "Savremeni luster Ring Crna",
+    "Description": "Okrugli dizajn koji se ističe svojom jednostavnošću i funkcionalnošću. Dolazi sa integrisanim LED osvjetljenjem.",
+    "Price": 390.30,
+    "PictureUrl": "/images/products/rasvjeta/22.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Philips",
+    "QuantityInStock": 11
+  },
+
+  {
+    "Name": "Savremeni luster Ring Crna-Zlatna",
+    "Description": "Okrugli dizajn koji se ističe svojom jednostavnošću i funkcionalnošću. Dolazi sa integrisanim LED osvjetljenjem.",
+    "Price": 390.30,
+    "PictureUrl": "/images/products/rasvjeta/23.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Philips",
+    "QuantityInStock": 11
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "/images/products/sb-core2.png",
-    "Type": "Boards",
-    "Brand": "NetCore",
-    "QuantityInStock": 52
+    "Name": "Modularni luster Geometrija",
+    "Description": "Modularni luster sa geometrijskim oblicima koji se mogu prilagoditi prostoru.",
+    "Price": 470.20,
+    "PictureUrl": "/images/products/rasvjeta/13.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Philips",
+    "QuantityInStock": 8
   },
   {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250.45,
-    "PictureUrl": "/images/products/sb-react1.png",
-    "Type": "Boards",
-    "Brand": "React",
-    "QuantityInStock": 97
+    "Name": "Vintage luster Kovan u različitim bojama: roza, plava, zelena",
+    "Description": "Unikatni luster sa kovanom konstrukcijom i rustičnim šarmom. Idealan za moderne i retro enterijere.",
+    "Price": 350.60,
+    "PictureUrl": "/images/products/rasvjeta/21.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Trilux",
+    "QuantityInStock": 10
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120.54,
-    "PictureUrl": "/images/products/sb-ts1.png",
-    "Type": "Boards",
-    "Brand": "Typescript",
-    "QuantityInStock": 37
+    "Name": "Metalni luster Ciklus",
+    "Description": "Savršen za ljubitelje industrijskog dizajna, ovaj luster dolazi sa mat metalnim završetkom.",
+    "Price": 330.00,
+    "PictureUrl": "/images/products/rasvjeta/19.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Philips",
+    "QuantityInStock": 12
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10.45,
-    "PictureUrl": "/images/products/hat-core1.png",
-    "Type": "Hats",
-    "Brand": "NetCore",
-    "QuantityInStock": 32
+    "Name": "Stakleni luster Refleksija",
+    "Description": "Stakleni luster sa visokim sjajem i reflektivnim površinama. Dodaje moderan dodir svakom prostoru.",
+    "Price": 280.50,
+    "PictureUrl": "/images/products/rasvjeta/2.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Trilux",
+    "QuantityInStock": 9
   },
   {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8.54,
-    "PictureUrl": "/images/products/hat-react1.png",
-    "Type": "Hats",
-    "Brand": "React",
+    "Name": "Vintage luster Retro",
+    "Description": "Luster sa retro estetikom koji donosi nostalgičan šarm u vaš dom.",
+    "Price": 360.75,
+    "PictureUrl": "/images/products/rasvjeta/24.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Philips",
+    "QuantityInStock": 11
+  },
+  {
+    "Name": "Luster Sferna harmonija",
+    "Description": "Elegantni luster sa kuglama različitih veličina, raspoređenim u harmoniji. Savršen za moderne dnevne sobe i trpezarije.",
+    "Price": 390.00,
+    "PictureUrl": "/images/products/rasvjeta/4.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Philips",
+    "QuantityInStock": 9
+  },
+  {
+    "Name": "Minimalistički luster Kugle",
+    "Description": "Savremeni dizajn sa staklenim kuglama koje ravnomjerno raspoređuju svjetlost. Jednostavan, a elegantan dodatak svakom prostoru.",
+    "Price": 310.20,
+    "PictureUrl": "/images/products/rasvjeta/5.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Trilux",
+    "QuantityInStock": 12
+  },
+  {
+    "Name": "Geometrijski luster Sfera",
+    "Description": "Unikatni luster sa kuglama koje vise na različitim nivoima, stvarajući dinamičan efekat. Savršen za prostore sa visokim plafonima.",
+    "Price": 480.00,
+    "PictureUrl": "/images/products/rasvjeta/6.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Philips",
     "QuantityInStock": 6
   },
   {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "/images/products/hat-react2.png",
-    "Type": "Hats",
-    "Brand": "React",
-    "QuantityInStock": 17
+    "Name": "Luster Bijele kugle",
+    "Description": "Jednostavan i profinjen dizajn sa mat bijelim kuglama koje se savršeno uklapaju u skandinavski stil uređenja.",
+    "Price": 340.00,
+    "PictureUrl": "/images/products/rasvjeta/9.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Siteco",
+    "QuantityInStock": 7
   },
   {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "/images/products/glove-code1.png",
-    "Type": "Gloves",
-    "Brand": "VS Code",
-    "QuantityInStock": 74
+    "Name": "Luster Bijeli oblak",
+    "Description": "Sofisticirani bijeli luster sa zakrivljenim linijama i modernim dizajnom. Odlično pristaje klasičnim i savremenim enterijerima.",
+    "Price": 380.00,
+    "PictureUrl": "/images/products/rasvjeta/10.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Siteco",
+    "QuantityInStock": 12
   },
   {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "/images/products/glove-code2.png",
-    "Type": "Gloves",
-    "Brand": "VS Code",
-    "QuantityInStock": 19
+    "Name": "Luster Bijela Elegancija",
+    "Description": "Sofisticirani bijeli luster sa zakrivljenim linijama i modernim dizajnom. Odlično pristaje klasičnim i savremenim enterijerima.",
+    "Price": 380.00,
+    "PictureUrl": "/images/products/rasvjeta/16.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Siteco",
+    "QuantityInStock": 12
   },
   {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "/images/products/glove-react1.png",
-    "Type": "Gloves",
-    "Brand": "React",
-    "QuantityInStock": 77
+    "Name": "Luster zelena Elegancija",
+    "Description": "Sofisticirani bijeli luster sa zakrivljenim linijama i modernim dizajnom. Odlično pristaje klasičnim i savremenim enterijerima.",
+    "Price": 380.00,
+    "PictureUrl": "/images/products/rasvjeta/17.jpg",
+    "Type": "Lusteri i visilice",
+    "Brand": "Siteco",
+    "QuantityInStock": 12
+  },
+
+  {
+    "Name": "Plafonjerka Crno -  Bijeli Krug",
+    "Description": "Minimalistička plafonjerka okruglog oblika sa bijelim difuzorom. Idealan izbor za hodnike i spavaće sobe.",
+    "Price": 180.00,
+    "PictureUrl": "/images/products/rasvjeta/25.jpg",
+    "Type": "Plafonjerke",
+    "Brand": "Philips",
+    "QuantityInStock": 15
   },
   {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "/images/products/glove-react2.png",
-    "Type": "Gloves",
-    "Brand": "React",
-    "QuantityInStock": 45
+    "Name": "LED Plafonjerka 2 kruga",
+    "Description": "Moderna plafonjerka kružnog oblika sa ugrađenim LED svjetlom. Energetski efikasna i prilagodljiva za sve vrste prostora.",
+    "Price": 230.00,
+    "PictureUrl": "/images/products/rasvjeta/26.jpg",
+    "Type": "Plafonjerke",
+    "Brand": "Trilux",
+    "QuantityInStock": 12
   },
   {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "/images/products/boot-redis1.png",
-    "Type": "Boots",
-    "Brand": "Redis",
-    "QuantityInStock": 49
+    "Name": "Plafonjerka Sferna Bijela",
+    "Description": "Plafonjerka u obliku bijele sfere, koja ravnomjerno raspoređuje svjetlost. Jednostavan, ali efektan dizajn.",
+    "Price": 200.00,
+    "PictureUrl": "/images/products/rasvjeta/28.jpg",
+    "Type": "Plafonjerke",
+    "Brand": "Philips",
+    "QuantityInStock": 10
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "/images/products/boot-core2.png",
-    "Type": "Boots",
-    "Brand": "NetCore",
-    "QuantityInStock": 28
+    "Name": "Plafonjerka sa drvenim detaljima",
+    "Description": "Plafonjerka u obliku bijele sfere, koja ravnomjerno raspoređuje svjetlost. Jednostavan, ali efektan dizajn.",
+    "Price": 200.00,
+    "PictureUrl": "/images/products/rasvjeta/29.jpg",
+    "Type": "Plafonjerke",
+    "Brand": "Philips",
+    "QuantityInStock": 10
+  },
+
+  {
+    "Name": "LED Spot Crni Minimalizam x4",
+    "Description": "Jednostavni crna LED spot svjetiljka sa podesivim uglom osvjetljenja. Idealna za akcentovanje detalja u prostoru.",
+    "Price": 120.00,
+    "PictureUrl": "/images/products/rasvjeta/30.jpg",
+    "Type": "Spot svjetla i reflektori",
+    "Brand": "Philips",
+    "QuantityInStock": 20
   },
   {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "/images/products/boot-core1.png",
-    "Type": "Boots",
-    "Brand": "NetCore",
-    "QuantityInStock": 69
+    "Name": "LED Spot Crni Minimalizam x3",
+    "Description": "Jednostavni crna LED spot svjetiljka sa podesivim uglom osvjetljenja. Idealna za akcentovanje detalja u prostoru.",
+    "Price": 120.00,
+    "PictureUrl": "/images/products/rasvjeta/31.jpg",
+    "Type": "Spot svjetla i reflektori",
+    "Brand": "Philips",
+    "QuantityInStock": 20
   },
   {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "/images/products/boot-ang2.png",
-    "Type": "Boots",
-    "Brand": "Angular",
-    "QuantityInStock": 35
+    "Name": "BijeliLED Spot Sa Stilom",
+    "Description": "Elegantan crni spot svjetiljka koja pruža moderni akcent u svakom prostoru. Podesiva za precizno osvjetljavanje.",
+    "Price": 140.00,
+    "PictureUrl": "/images/products/rasvjeta/32.jpg",
+    "Type": "Spot svjetla i reflektori",
+    "Brand": "Siteco",
+    "QuantityInStock": 18
+  },
+
+  {
+    "Name": "Lampa sa jednostavnom bazom",
+    "Description": "Lampa sa jednostavnom, modernom bazom koja stvara prijatnu atmosferu u svakom prostoru. Idealna za dnevne sobe i spavaće sobe.",
+    "Price": 220.00,
+    "PictureUrl": "/images/products/rasvjeta/33.jpg",
+    "Type": "Stone lampe",
+    "Brand": "Philips",
+    "QuantityInStock": 10
   },
   {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "/images/products/boot-ang1.png",
-    "Type": "Boots",
-    "Brand": "Angular",
-    "QuantityInStock": 27
+    "Name": "Minimalistička lampa",
+    "Description": "Minimalistički dizajn sa čistim linijama, pruža suptilno svjetlo koje je savršeno za moderne prostore.",
+    "Price": 350.00,
+    "PictureUrl": "/images/products/rasvjeta/35.jpg",
+    "Type": "Stone lampe",
+    "Brand": "Trilux",
+    "QuantityInStock": 7
+  },
+  {
+    "Name": "Elegantna lampa u neutralnoj boji",
+    "Description": "Elegantan dizajn u neutralnim tonovima, idealna za interijere sa jednostavnim i čistim stilom.",
+    "Price": 180.00,
+    "PictureUrl": "/images/products/rasvjeta/37.jpg",
+    "Type": "Stone lampe",
+    "Brand": "Siteco",
+    "QuantityInStock": 12
+  },
+
+
+  {
+    "Name": "Topla lampa crvene boje sa jednostavnim dizajnom",
+    "Description": "Lampa sa toplim svjetlom i jednostavnom bazom koja stvara ugodnu atmosferu u svakom prostoru.",
+    "Price": 250.00,
+    "PictureUrl": "/images/products/rasvjeta/38.jpg",
+    "Type": "Stone lampe",
+    "Brand": "Siteco",
+    "QuantityInStock": 10
+  },
+  {
+    "Name": "Topla lampa plave boje sa jednostavnim dizajnom",
+    "Description": "Lampa sa toplim svjetlom i jednostavnom bazom koja stvara ugodnu atmosferu u svakom prostoru.",
+    "Price": 250.00,
+    "PictureUrl": "/images/products/rasvjeta/40.jpg",
+    "Type": "Stone lampe",
+    "Brand": "Siteco",
+    "QuantityInStock": 10
+  },
+  {
+    "Name": "Topla lampa roze boje sa jednostavnim dizajnom",
+    "Description": "Lampa sa toplim svjetlom i jednostavnom bazom koja stvara ugodnu atmosferu u svakom prostoru.",
+    "Price": 250.00,
+    "PictureUrl": "/images/products/rasvjeta/41.jpg",
+    "Type": "Stone lampe",
+    "Brand": "Siteco",
+    "QuantityInStock": 10
+  },
+
+  {
+    "Name": "Noćna lampa u obliku medvjedića",
+    "Description": "Preslatka noćna lampa u obliku medvjedića, idealna za nježno noćno osvjetljenje.",
+    "Price": 160.00,
+    "PictureUrl": "/images/products/rasvjeta/42.jpg",
+    "Type": "Dječija soba",
+    "Brand": "Siteco",
+    "QuantityInStock": 7
+  },
+  {
+    "Name": "Luster sa medvjedićima",
+    "Description": "Preslatka noćna lampa u obliku medvjedića, idealna za nježno noćno osvjetljenje.",
+    "Price": 180.00,
+    "PictureUrl": "/images/products/rasvjeta/43.jpg",
+    "Type": "Dječija soba",
+    "Brand": "Siteco",
+    "QuantityInStock": 7
+  },
+  {
+    "Name": "Lustersa veselim bojama - žuti",
+    "Description": "Šareni lustersa jednostavnim dizajnom koja donosi živost i energiju u dječiju sobu.",
+    "Price": 190.00,
+    "PictureUrl": "/images/products/rasvjeta/44.jpg",
+    "Type": "Dječija soba",
+    "Brand": "Trilux",
+    "QuantityInStock": 11
+  },
+  {
+    "Name": "Lustersa veselim bojama - rozi",
+    "Description": "Šareni lustersa jednostavnim dizajnom koja donosi živost i energiju u dječiju sobu.",
+    "Price": 190.00,
+    "PictureUrl": "/images/products/rasvjeta/45.jpg",
+    "Type": "Dječija soba",
+    "Brand": "Trilux",
+    "QuantityInStock": 11
+  },
+  {
+    "Name": "Lampa za dvorišne staze",
+    "Description": "Elegantna lampa za dvorišne staze koja pruža sigurno i prijatno osvjetljenje u večernjim satima.",
+    "Price": 250.00,
+    "PictureUrl": "/images/products/rasvjeta/48.jpg",
+    "Type": "Vanjska rasvjeta",
+    "Brand": "Trilux",
+    "QuantityInStock": 12
+  },
+  {
+    "Name": "LED ulična lampa",
+    "Description": "Savremena LED ulična lampa visokih performansi, pogodna za osvjetljavanje puteva i javnih površina. Energetski efikasna.",
+    "Price": 1500.00,
+    "PictureUrl": "/images/products/rasvjeta/49.jpg",
+    "Type": "Vanjska rasvjeta",
+    "Brand": "Trilux",
+    "QuantityInStock": 7
+  },
+  {
+    "Name": "Dekorativna ulična lampa",
+    "Description": "Dekorativna ulična lampa koja kombinuje funkcionalnost i estetiku. Pogodna za trgove i javne prostore.",
+    "Price": 1400.00,
+    "PictureUrl": "/images/products/rasvjeta/51.jpg",
+    "Type": "Vanjska rasvjeta",
+    "Brand": "Philips",
+    "QuantityInStock": 6
+  },
+  {
+    "Name": "Lampa sa bijelim balonima",
+    "Description": "Dizajn sa motivima balona koji inspirišu radost i podstiču maštu. Savršena za dječiju sobu.",
+    "Price": 230.00,
+    "PictureUrl": "/images/products/rasvjeta/47.jpg",
+    "Type": "Dječija soba",
+    "Brand": "Trilux",
+    "QuantityInStock": 10
   }
 ]
